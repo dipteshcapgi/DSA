@@ -1,0 +1,34 @@
+- Min Heap : 
+- At top : smallest milegaa 
+- It tells whoever we visit till now , whose max and min
+- get top : 1
+- insertion : log n ( consider that tree ) 
+- deletion : log n 
+
+- Max Heap : 
+- At top : largest milegaa 
+- get top : 1
+- insertion : log n ( consider that tree ) 
+- deletion : log n 
+
+// Max Heap : 
+priority_queue <int> pq;
+
+// Min Heap : 
+priority_queue <int,vector<int>,greater<int>> pq;
+
+// Basic operations 
+push : pq.push(n);
+pop : pq.pop();
+top : pq.top();
+empty : pq.empty();
+size : pq.size();
+
+// Pattern Recognise 
+- Top k 
+- kth smallest largest
+- closest forthest 
+- min max of every step
+- merge sorted arrays ( 2+ arrays )
+- stream of data
+- rearrangement while keeping best ( pyramid ) 
